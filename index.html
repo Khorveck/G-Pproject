@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap Agency Page Template</title>
+    <!-- Bootstrap -->
+    <link href="css/bootstrap-4.3.1.css" rel="stylesheet">
+	<script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+  </head>
+  <body>
+	<nav>
+	<div class="LocalAcesso">
+		<a></a>
+	</div>
+    </nav>
+    <header>
+	  <div class="navbar navbar-expand-lg bg-light">
+		<a class="navbar-brand" href="#"><img src="images/sebrae_logo_w.png" width="105" height="52" alt=""/></a>
+		<div> 
+		  <a class="TituloSas"> SAS - Sistema de Atendimento e Relacionamento Sebrae</a>  
+		</div>
+      </div>
+    </header>
+    <section>
+		<div class="SpaceTop">
+		</div>
+
+      <div class="col-xl-4 offset-xl-4 box-shadow" id="JanelaLogin" style="display: none">
+        <div class="flex-row">
+			<div class="LinhaTitulo text-left">
+				<div style="padding-left: 1rem;"><strong>ACESSO AO SISTEMA</strong></div>
+			</div>
+        </div>
+        <div class="flex-row-reverse">
+				<form>
+					<div>
+						<div class="form-group">
+							<div class="SpaceTop"></div>
+							<div class="col-auto">
+							  <ul class="list-unstyled">
+								<li class="media2">
+								  <div class="IconeAcesso">
+								  	<img class="mr-3" src="images/usuario.png" width="22" height="22" alt="">
+								  </div>
+								  <div class="media-body">
+									  <div class="col-xl-11">
+										  <input type="text" class="form-control" placeholder="Digite aqui o seu usuário"> 
+										  <span id="nameHelp" class="form-text text-muted" style="display: none;">Entre com o nome do usuário</span>
+									  </div>
+								  </div>
+								</li>
+								  <div class="SpaceTop2"></div>
+								  <li class="media">
+									<div class="IconeAcesso">  
+								  		<img class="mr-3" src="images/senha.png" width="22" height="22" alt="">
+									  </div>
+								  <div class="media-body">
+									  <div class="col-xl-11">
+										  <input type="text" class="form-control" placeholder="Digite aqui a sua senha">  
+										  <span id="passHelp" class="form-text text-muted" style="display: none;">Digite aqui a sua senha</span>
+									  </div>
+								  </div>
+								</li>
+								</ul>
+				 			</div>	
+								
+					
+							
+									
+							</div>
+							<div>
+							  <div class="SpaceTop"></div>
+							  <div class="containerLogin">
+								  <div class="item grow1"><a href="Page1.html" class="btn-block2" style="width:100%">Utilizar login de rede</a></div>
+								  <div class="item grow1"><a href="Page1.html" class="btn-block" style="width:100%">Acessar</a></div>
+
+							</div>
+						</div>
+				    </div>
+			</form>
+		
+
+		    </div>
+</div>
+    </section>
+    <div class="container">
+      
+    </div>
+    <footer class="text-center">
+      <div class="container">
+		  		<div class="SpaceTop">
+		</div>
+		<div id="Versao" style="display: none">  
+        <div class="row">
+          <div class="col-12">
+            <p>SEBRAE - Todos os direitos reservados</p>
+			<p>Versões: Aplicação 5.4.0 - Banco de dados 5.4.9</p>
+          </div>
+        </div>
+		</div>	
+      </div>
+    </footer>
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) --> 
+    <script src="js/jquery-3.3.1.min.js"></script> 
+    <!-- Include all compiled plugins (below), or include individual files as needed --> 
+    <script src="js/popper.min.js"></script> 
+    <script src="js/bootstrap-4.3.1.js"></script>
+	<script>
+		$(document).ready(function() {
+     	  $("#JanelaLogin").delay(700).fadeIn();
+		  $("#Versao").delay(900).fadeIn();	
+		});
+	</script>
+  </body>
+</html>
